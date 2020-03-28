@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="da5fb9ce-3a37-4dad-a782-9377ee312985" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/C.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Cgrammer.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CompilerDesign.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/CompilerDesign/AsmCode.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/CompilerDesign/LL1Analysis.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/CompilerDesign/LL1Table.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/CompilerDesign/META-INF/CompilerDesign.kotlin_module" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/CompilerDesign/ObjectCode.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/CompilerDesign/Pair.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/CompilerDesign/SemanticAnalysis.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/CompilerDesign/SymbolTable$Struc.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/CompilerDesign/SymbolTable$Type.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/CompilerDesign/SymbolTable$Var.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/CompilerDesign/SymbolTable.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/CompilerDesign/Syntax$Quaternary.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/CompilerDesign/Syntax$production.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/CompilerDesign/Syntax.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/CompilerDesign/lexAnalysis.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/CompilerDesign/test.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/AsmCode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/LL1Analysis.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/LL1Table.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ObjectCode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Pair.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SemanticAnalysis.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SymbolTable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Syntax.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lexAnalysis.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test.txt" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="D:\Tools\maven\apache-maven-3.6.3\repository" />
+        <option name="mavenHome" value="D:/Tools/maven/apache-maven-3.6.3" />
+        <option name="userSettingsFile" value="D:\Tools\maven\apache-maven-3.6.3\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1ZRDpnNCj5dEJaHlY8KmfBGCBAX" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="fileTemplates" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\market-master\CompilerDesign" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.LL1Table">
+    <configuration name="LL1Analysis" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="LL1Analysis" />
+      <module name="CompilerDesign" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LL1Table" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="LL1Table" />
+      <module name="CompilerDesign" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="lexAnalysis" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lexAnalysis" />
+      <module name="CompilerDesign" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="test" />
+      <module name="CompilerDesign" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.LL1Table" />
+        <item itemvalue="Application.test" />
+        <item itemvalue="Application.LL1Analysis" />
+        <item itemvalue="Application.lexAnalysis" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="da5fb9ce-3a37-4dad-a782-9377ee312985" name="Default Changelist" comment="" />
+      <created>1584793197462</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1584793197462</updated>
+      <workItem from="1584793202244" duration="4231000" />
+      <workItem from="1584847586514" duration="2115000" />
+      <workItem from="1584941599080" duration="10612000" />
+      <workItem from="1585047635686" duration="8737000" />
+      <workItem from="1585104137300" duration="30409000" />
+      <workItem from="1585232940610" duration="7793000" />
+      <workItem from="1585283659394" duration="41472000" />
+      <workItem from="1585359428390" duration="4654000" />
+      <workItem from="1585365561933" duration="269000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state width="1568" height="276" key="GridCell.Tab.0.bottom" timestamp="1585365257063">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1568" height="276" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1585365257063" />
+    <state width="1568" height="276" key="GridCell.Tab.0.center" timestamp="1585365257063">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1568" height="276" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1585365257063" />
+    <state width="1568" height="276" key="GridCell.Tab.0.left" timestamp="1585365257063">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1568" height="276" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1585365257063" />
+    <state width="1568" height="276" key="GridCell.Tab.0.right" timestamp="1585365257063">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1568" height="276" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1585365257063" />
+    <state x="483" y="165" key="SettingsEditor" timestamp="1584793489190">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="483" y="165" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1584793489190" />
+    <state x="663" y="347" key="com.intellij.ide.util.TipDialog" timestamp="1585365562277">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="663" y="347" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1585365562277" />
+    <state x="754" y="250" key="run.anything.popup" timestamp="1585241395723">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="754" y="250" key="run.anything.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1585241395723" />
+    <state x="632" y="280" width="672" height="678" key="search.everywhere.popup" timestamp="1585364318029">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="632" y="280" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1585364318029" />
+  </component>
+</project>

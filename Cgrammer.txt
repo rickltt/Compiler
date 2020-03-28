@@ -1,0 +1,80 @@
+program : type 'main' '(' ')' innerprogram
+        ;
+innerprogram : '{' expmaker '}'
+             ;
+expmaker : type id idassignment ';' expmaker
+         | epsilon
+         | id howtoassign easyexp ASSI ';' expmaker
+         | 'if' '(' boolexp ')' IF '{' LEVELA expmaker '}' LEVELS iselse expmaker
+         | 'struct' id '{' expmaker '}' ';' expmaker
+         | Loop expmaker
+         | 'scanf' '(' scanfexp ')' ';' expmaker
+         | 'printf' '(' printfexp ')' ';' expmaker
+         ;
+Loop : 'while' WH '(' boolexp ')' DO '{' LEVELA expmaker '}' LEVELS WE
+       | 'for' '(' type id howtoassign ';' boolexp ';' id increment ')' DO '{' LEVELA expmaker '}' LEVELS WE
+       ;
+increment : '++'
+           | '--'
+           ;
+iselse :  epsilon IEFIR
+       | 'else' EL isifagain
+       ;
+isifagain : '{' LEVELA expmaker '}' LEVELS IESEC
+         | epsilon
+          ;
+howtoassign : PUSH '='
+            | PUSH '[' int_const PUSHNUM ']' '='
+            ;
+idassignment : epsilon
+             | PUSH '=' easyexp ASSI
+             | '[' int_const ']'
+             ;
+boolexp : numorid1 optnumorid2
+        ;
+numorid1 : float_const PUSH
+        | id PUSH
+        ;
+numorid2 : int_const PUSH
+        | id PUSH
+        | epsilon
+        ;
+optnumorid2 : '>' numorid2 GEQG
+    | '<' numorid2 GEQL
+    | '==' numorid2 GEQE
+    | '>=' numorid2 GEQGE
+    | '<=' numorid2 GEQLE
+    | epsilon
+    ;
+easyexp : t e1
+        ;
+printfexp : '"' dopt '"' ',' id PUSH PRINTF
+        ;
+scanfexp : '"' dopt '"' ',' '&' id PUSH SCANF
+        ;
+dopt : '%d'
+      | '%s'
+      | '%c'
+      ;
+e1 : '+' t GEQA e1
+   | '-' t GEQS e1
+   | epsilon
+   ;
+t : f t1
+  ;
+t1 : '*' f GEQM t1
+   | '/' f GEQD t1
+   | epsilon
+   ;
+f : id PUSH
+  | int_const PUSH
+  | float_const PUSH
+  | string PUSH
+  | char_const PUSH
+  | '(' easyexp ')'
+  ;
+type : 'int'
+     | 'char'
+     | 'float'
+     | 'string'
+     ;

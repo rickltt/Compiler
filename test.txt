@@ -1,0 +1,35 @@
+ASSUME CS:CODE,DS:DATAS
+DATAS SEGMENT
+a   DB   ?
+b   DB   ?
+c   DB   ?
+d   DB   ?
+t1   DB   ?
+t2   DB   ?
+DATAS ENDS
+CODE SEGMENT
+START:MOV AX,DATAS
+      MOV DS,AX
+      XOR AX,AX
+      MOV AL,7
+      MOV a, AL
+      XOR AH,AH
+      MOV AL,0
+      MOV b, AL
+      XOR AH,AH
+      MOV AL,7
+      MOV c,AL
+      XOR AH,AH
+      MOV AL,7
+      MOV d,AL
+      int 21H
+
+      MOV BX,d
+      ADD BX,30H
+      MOV AH,09H
+      lea DX,BX
+      int 21H
+      MOV AH,4CH
+      INT 21H
+      CODE ENDS
+      END START
